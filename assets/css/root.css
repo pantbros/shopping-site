@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+:root{
+    --theme-font-family:'League Spartan', sans-serif;
+    /*backgroudcolors*/
+    --header-bg:#e3e6f3;
+    --theme-bg-btn:#088178;
+    --theme-cbg-c:transparent;
+    --transparent-btn:transparent;
+    --fe-txt-bg:#fddde4;
+    --fe-bx-2:#cdebbc;
+    --fe-bx-3:#d1e8f2;
+    --fe-bx-4:#ccd4f8;
+    --fe-bx-5:#f6dbf6;
+    --fe-bx-6:#fff2e5;
+    --pro-cart-bg:#e8f6ea;
+    /*textcolors*/
+    --white:#fff;
+    --black:#000;
+    --footer-txt-color:#222;
+    --close-btn-c:#222;
+    --alt-theme-c:#ef3636;
+    --header-link-color:#1a1a1a;
+    --header-link-hover-color:#088178;
+    --header-link-active-color:#088178;
+    --header-link-active-color:#088178;
+    --theme-cc:#088178;
+    --cs-para-color:#465b52;
+    --footer-i-c:#465b52;
+    --pro-brnd-txt:#606063;
+    --pro-desc-txt:#1a1a1a;
+    --pro-brnd-i:rgb(243, 181, 25);
+    --news-txt-color:#041e42;
+    --news-para-color:#818ea0;
+    --news-para-spn-c:#ffbd27;
+    /*backgroundimages*/
+    --hero-bg:url(../images/hero4.png);
+    --blog-banner-bg:url(../images/banner/b1.jpg);
+    --theme-bgi-button:url(../images/button.png);
+    --mid-sec-banner-bg:url(../images/banner/b2.jpg);
+    --expore-banner-bg-1:url(../images/banner/b17.jpg);
+    --expore-banner-bg-2:url(../images/banner/b10.jpg);
+    --text-banner-img-1:url(../images/banner/b7.jpg);
+    --text-banner-img-2:url(../images/banner/b4.jpg);
+    --text-banner-img-3:url(../images/banner/b18.jpg);
+    --newsletter-bg-img:url(../images/banner/b14.png);
+    /*shadowvariables*/
+    --box-bs:0 5px 15px rgba(0, 0, 0, 0.06);
+    --fe-bx-bs:20px 20px 34px rgba(0, 0, 0, 0.06);
+    --fe-bx-hover-bs:10px 10px 54px rgba(0, 0, 0, 0.1);
+    --pro-bx-bs:20px 20px 30px rgba(0, 0, 0, 0.02);
+    --pro-bx-hover-bs:20px 20px 30px rgba(0, 0, 0, 0.06);
+    --nav-mob-bs:0px 40px 60px rgba(0, 0, 0, 0.01);
+    /*bodervariables*/
+    --fe-bx-boder:1px solid #cce7de;
+    --pro-bx-boder:1px solid #cce7d0;
+    --transparent-boder:1px solid transparent;
+    --app-img-border:1px solid #088178;
+}
