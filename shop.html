@@ -375,7 +375,8 @@
     <script>
 
         let shopitems = document.querySelectorAll(".pro");
-        let url ="https://pantbros.github.io/shopping-site/sproduct.html";
+        let url = location.host +'/sproduct.html';
+        console.log(url);
             shopitems.forEach(function(shopitem){
                 shopitem.addEventListener("click", function(){
                     window.open(url, "_blank")
