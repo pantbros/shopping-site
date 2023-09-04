@@ -19,9 +19,7 @@ if(close){
   
 // code lets you choose productImage
 let mainImage = document.getElementById("mainIamge");
-    console.log(mainImage);
-let images = document.querySelectorAll(".small-image");     
-    console.log(images);
+let images = document.querySelectorAll(".small-image");
 images.forEach(function(image){
     image.addEventListener("click", function(){
         mainImage.setAttribute("src", image.src)

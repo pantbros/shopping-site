@@ -377,10 +377,9 @@
         let shopitems = document.querySelectorAll(".pro");
         let url = location.href;
         let updatedurl = url.replace("shop", "sproduct")
-        console.log(updatedurl);
             shopitems.forEach(function(shopitem){
                 shopitem.addEventListener("click", function(){
-                    window.open(url, "_blank")
+                    window.open(updatedurl, "_blank")
                 })
             })
     </script>
