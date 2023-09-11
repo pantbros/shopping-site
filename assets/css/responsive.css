@@ -179,4 +179,39 @@
     #prodetails .single-pro-details select{
         margin-bottom: 20px;
     }
+
+    /* blog page Css */
+
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog .blog-details{
+        width: 100%;
+    }
+    /* about page */
+    #about-head{
+        flex-direction: column;
+    }
+    
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+    #about-app .video{
+        width: 100%;
+        height: 100%;
+    }
 }

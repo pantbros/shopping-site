@@ -17,6 +17,7 @@
     /*textcolors*/
     --white:#fff;
     --black:#000;
+    --blog-hdc:#c9cbce;
     --footer-txt-color:#222;
     --close-btn-c:#222;
     --alt-theme-c:#ef3636;
@@ -36,6 +37,8 @@
     /*backgroundimages*/
     --hero-bg:url(../images/hero4.png);
     --blog-banner-bg:url(../images/banner/b1.jpg);
+    --blogs-banner-bg:url(../images/banner/b19.jpg);
+    --about-header:url(../images/about/banner.png);
     --theme-bgi-button:url(../images/button.png);
     --mid-sec-banner-bg:url(../images/banner/b2.jpg);
     --expore-banner-bg-1:url(../images/banner/b17.jpg);

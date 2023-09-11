@@ -66,3 +66,5 @@ function updateTotalPrice() {
   // Initial calculation of total price
   updateTotalPrice();
     
+
+
