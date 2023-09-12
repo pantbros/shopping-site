@@ -18,9 +18,9 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a class="active" href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                 <a id="close"><i class="fa-solid fa-xmark"></i></a>
             </ul>
         </div>
@@ -34,76 +34,96 @@
     
     <!-- hero  -->
     <section id="pageHeader" class="about-header">
-        <h2>#knowus</h2>
-        <p>Lorem ipsum dolor sit amet consectetur</p>
+        <h2>#let's_talk</h2>
+        <p>Leave a message, We love to hear from you!</p>
     </section>
     <!-- hero  /-->
-    
-    <!-- about main content -->
-    <section id="about-head" class="theme-p1">
-        <img src="assets/images/about/a6.jpg" alt="a6">
-        <div>
-           <h2>Who We Are?</h2>
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aperiam maxime eligendi magni enim accusamus? Nobis exercitationem autem quibusdam neque minima velit deserunt odit tempora doloremque, libero maiores alias delectus ratione, modi harum fugiat nihil, rerum consequatur et reprehenderit qui molestiae suscipit provident! Dolorem doloribus incidunt modi, facilis doloremque velit.</p>
-           <abbr title="">
-            Create stunning images with as much or as little control as you like thanks to a choice of Basic Creatie modes.
-           </abbr> 
-           <br>
-           <br>
-           <marquee bgcolor="#ccc" loops="-1" scrollamount="5" width="100%">Create stunning images with as much or as little control as you like thanks to a choice of Basic Creatie modes.</marquee>
-        </div>
-    </section>
-    <!-- about main content /-->
-    
-    <!-- about app -->
-    <section id="about-app" class="theme-p1">
-        <h1>Download The <a href="#">App</a></h1>
-        <div class="video">
-            <video autoplay muted loop src="assets/images/about/1.mp4"></video>
-        </div>
-    </section>
-    <!-- about app /-->
 
-    <!-- features -->
-    <section id="features" class="theme-p1">
-        <div class="fe-box">
-            <img src="assets/images/features/f1.png" alt="f1">
-            <h6>Free Shpping</h6>
-        </div>
-        <div class="fe-box">
-            <img src="assets/images/features/f2.png" alt="f2">
-            <h6>Online Order</h6>
-        </div>
-        <div class="fe-box">
-            <img src="assets/images/features/f3.png" alt="f3">
-            <h6>Save Money</h6>
-        </div>
-        <div class="fe-box">
-            <img src="assets/images/features/f4.png" alt="f4">
-            <h6>Promotions</h6>
-        </div>
-        <div class="fe-box">
-            <img src="assets/images/features/f5.png" alt="f5">
-            <h6>Happy Sell</h6>
-        </div>
-        <div class="fe-box">
-            <img src="assets/images/features/f6.png" alt="f6">
-            <h6>F24/7 Support</h6>
-        </div>
+    <!-- cart table -->
+    <section id="cart" class="theme-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#delete"><i class="fa-regular fa-circle-xmark"></i></a>
+                    </td>
+                    <td>
+                        <img src="assets//images/products/f1.jpg" alt="f1">
+                    </td>
+                    <td>Cartoon Astronout T-Shirts</td>
+                    <td>$18.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$18.19</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#delete"><i class="fa-regular fa-circle-xmark"></i></a>
+                    </td>
+                    <td>
+                        <img src="assets//images/products/f2.jpg" alt="f1">
+                    </td>
+                    <td>Cartoon Astronout T-Shirts</td>
+                    <td>$18.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$18.19</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#delete"><i class="fa-regular fa-circle-xmark"></i></a>
+                    </td>
+                    <td>
+                        <img src="assets//images/products/f3.jpg" alt="f1">
+                    </td>
+                    <td>Cartoon Astronout T-Shirts</td>
+                    <td>$18.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$18.19</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
-    <!-- features /-->
+    <!-- cart table /-->
     
-    <!-- newsletter -->
-    <section id="newsletter" class="theme-p1 theme-m1">
-        <div class="newstext">
-            <h4>Sign Up For newsletters</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    <!-- add cart -->
+    <section id="add-cart" class="theme-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
         </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address"><button class="normal">Sign Up</button>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 35</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td>$ 335</td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
         </div>
     </section>
-    <!-- newsletter /-->
+    <!-- add cart /-->
+    
     <!-- footer -->
     <section class="theme-p1">
         <footer>
