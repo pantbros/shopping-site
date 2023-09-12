@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- header -->
+    <section id="header">
+        <a href="index.html"><img src="assets/images/logo.png" alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+    </section>
+    <!-- header /-->
+    
+    <!-- hero  -->
+    <section id="pageHeader" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>Leave a message, We love to hear from you!</p>
+    </section>
+    <!-- hero  /-->
+
+    <!-- cart table -->
+    <section id="cart" class="theme-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <a href="#delete"><i class="fa-regular fa-circle-xmark"></i></a>
+                    </td>
+                    <td>
+                        <img src="assets//images/products/f1.jpg" alt="f1">
+                    </td>
+                    <td>Cartoon Astronout T-Shirts</td>
+                    <td>$18.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$18.19</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#delete"><i class="fa-regular fa-circle-xmark"></i></a>
+                    </td>
+                    <td>
+                        <img src="assets//images/products/f2.jpg" alt="f1">
+                    </td>
+                    <td>Cartoon Astronout T-Shirts</td>
+                    <td>$18.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$18.19</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#delete"><i class="fa-regular fa-circle-xmark"></i></a>
+                    </td>
+                    <td>
+                        <img src="assets//images/products/f3.jpg" alt="f1">
+                    </td>
+                    <td>Cartoon Astronout T-Shirts</td>
+                    <td>$18.19</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$18.19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!-- cart table /-->
+    
+    <!-- add cart -->
+    <section id="add-cart" class="theme-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 35</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td>$ 335</td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+    <!-- add cart /-->
+    
+    <!-- footer -->
+    <section class="theme-p1">
+        <footer>
+            <div class="col">
+                <img src="assets/images/logo.png" alt="logo" class="logo">
+                <h4>Contact</h4>
+                <p><strong>Phone:</strong> +91 808 568 5568</p>
+                <p><strong>Address:</strong> 10:00 - 18:00, Mon-Sat</p>
+                <div class="follow">
+                    <h4>Flow Us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#about">About</a>
+                <a href="#about">Delivery Information</a>
+                <a href="#privacy-policy">Privacy Policy</a>
+                <a href="#terms-and-condition">Terms & Condition</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="#sign-in">Sign In</a>
+                <a href="#View-cart">View Cart</a>
+                <a href="#my-wishlist">My Wishlist</a>
+                <a href="#track-my-order">Track My Order</a>
+                <a href="#help">Help</a>
+            </div>
+            <div class="col install">
+                <h4>My Account</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="assets/images/pay/app.jpg" alt="app">
+                    <img src="assets/images/pay/play.jpg" alt="play">
+                </div>
+                <p>Secured Payment Gateways</p>
+                    <img src="assets/images/pay/pay.png" alt="pay">
+            </div>
+            <div class="copyright">
+                <p><span>&#169;</span> 2023 Pantbros- HTML CSS Ecommerce Template</p>
+            </div>
+        </footer>
+       
+    </section>
+    <!-- footer /-->
+    <!-- script -->
+    <script src="assets/js/script.js"></script>
+    <!-- script /-->
+</body>
+</html>
